@@ -8,7 +8,7 @@ public class Account {
 		return this.balance;
 	}
 	
-	public void deposit(int money) {
+	public void deposit(int money) throws DepositMinusMoneyException {
 		
 		if (money <0) {
 			
